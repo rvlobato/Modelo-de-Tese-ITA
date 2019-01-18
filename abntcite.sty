@@ -1,56 +1,22 @@
-%% $Id: abntcite.sty,v 1.26 2003/10/13 09:40:41 gweber Exp $
-%% name of this file abntcite.sty
+%% abntex2cite.sty, v-1.9.7 laurocesar
+%% Copyright 2012-2018 by abnTeX2 group at https://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro CÃ©sar Araujo. Further information are available on 
+%% https://www.abntex.net.br/
+%%
+%% Creator and original mantainer: Gerald Weber <gweber@codigolivre.org.br>
 %% Copyright 2001-2002 by the abnTeX group at http://abntex.codigolivre.org.br
-%%
-%% This file is distributed under the LaTeX-Project Public License (LPPL)
-%%            http://www.latex-project.org/lppl.html
-%% You are free to modify this file under the LPPL.
-%%
-%% $Log: abntcite.sty,v $
-%% Revision 1.26  2003/10/13 09:40:41  gweber
-%% Passa a usar cvs-id.def para gerar informações sobre data e versão.
-%%
-%% Revision 1.25  2003/10/10 16:42:51  gweber
-%% Passa a usar cvs-id.def para gerar informações sobre data e versão.
-%%
-%% Revision 1.24  2003/10/07 16:21:55  gweber
-%% Informação sobre o pacote (comando \ProvidesPackage) automáticamente atualizado via
-%% CVS Id tags.
-%%
-%% Revision 1.23  2003/09/16 12:13:16  gweber
-%% A partir desta versão abntcite carrega os arquivos nbr10520-*.def com as definições
-%% espeçificas destas normas. Esta alteração cumpre em parte a tarefa 931.
-%%
-%% Revision 1.22  2003/07/22 16:38:32  gweber
-%% Implementada a aopção abnt-substyle=COPPE que ativa a opção de mesmo nome em
-%% abnt-option.bib e define o comando \bibtextitlecommand de acordo.
-%%
-%% Revision 1.21  2003/06/05 14:48:12  gweber
-%% Citations are now treated correctly if hyperref is loaded. This solves bugs 51 and 82
-%% which are now closed.
-%%
-%% Revision 1.20  2003/06/04 13:42:10  gweber
-%% The presence of the package hyperref is now autodetected and
-%% the citeoption abnt-url-package=hyperref is loaded. In this way
-%% whenever the user loads hyperref all url's given in the bibliografic
-%% database are shown as links and can be navigated to. Note that
-%% running as pdflatex loads hyperref also.
-%%
-%% Revision 1.19  2003/04/10 11:29:46  gweber
-%% \citenumstyle redefined to \relax instead of \large. According to
-%% the norm 6023/2000 the number label in the bibliography list is
-%% of the same font size as the remaining entry.
-%%
-%% Revision 1.18  2003/04/08 00:38:43  gweber
-%% further commands \loccit, \passim, \etseq and new behaviour of \citeauthor for num
-%%
-%% Revision 1.17  2003/04/07 12:22:55  gweber
-%% The command \hiddenbibitem was implemented. It creates an entry which
-%% does not appear in the bibliography list but creates all necessary keys
-%% for citation. This is for use with the new \apud and \apudonline commands.
-%% Further new commands: \Idem, \Ibidem, \opcit, \cfcite.
-%%
-%%
 
 % How this package is organized:
 % ------------------------------
@@ -65,6 +31,7 @@
 %     recuo (then makes bibitem indent 1.8em) (default: NO indentation)
 %     recuo=<length> (sets custom indentation)
 %     indent   is an alias for recuo (indent or indent=<length>)
+%     versalete  author in alf mode as with smallcaps
 %     other options are considered "\citeoption's" (mechanism includes a
 %       list that stores non defined options, and in \AtBeginDocument,
 %       \citeoption acts over this list)
@@ -123,13 +90,15 @@
 %     [9,2,3,1,4,11,7,10] becames [1--4,7,9--11]
 
 \NeedsTeXFormat{LaTeX2e}
-\input{cvs-id.def}
-\CVSExtract$Id: abntcite.sty,v 1.26 2003/10/13 09:40:41 gweber Exp $
-\CVSPackage{abntcite}{\space Chamadas de referencias no texto (NBR10520)} %substitui \ProvidesPackage (replaces \ProvidesPackage)
-
+%\input{cvs-id.def}
+%\CVSExtract$Id: abntcite.sty,v 1.26 2003/10/13 09:40:41 gweber Exp $
+%\CVSPackage{abntcite}{\space Chamadas de referencias no texto (NBR10520)} %substitui \ProvidesPackage (replaces \ProvidesPackage)
+\ProvidesPackage{abntex2cite}[2018/11/24 v-1.9.7 abnTeX2]
 \RequirePackage{ifthen}
 \RequirePackage{calc}
-\RequirePackage{abntex-abrev}
+\RequirePackage{abntex2abrev}
+\RequirePackage{setspace}	
+\RequirePackage{url} %*****
 
 %%%%%%  Options Declaration  %%%%%%
 
@@ -148,31 +117,37 @@
 
 % expands the first and second argument with
 % \protected@edef and calls #3 with them:
-\newcommand{\su@ExpandTwoArgs}[3]{%
-  \protected@edef\su@SubString{#1}%
-  \protected@edef\su@String{#2}%
-  \expandafter\expandafter\expandafter#3%
-  \expandafter\expandafter\expandafter{%
-    \expandafter\su@SubString\expandafter
-  }\expandafter{\su@String}%
-}
+\ifx \su@ExpandTwoArgs\undefined 
+   \newcommand{\su@ExpandTwoArgs}[3]{%
+     \protected@edef\su@SubString{#1}%
+     \protected@edef\su@String{#2}%
+     \expandafter\expandafter\expandafter#3%
+     \expandafter\expandafter\expandafter{%
+       \expandafter\su@SubString\expandafter
+     }\expandafter{\su@String}%
+   }
+\fi   
 %%
 %% tests if #1 in #2. If yes execute #3, else #4
-\newcommand*{\IfSubStringInString}[2]{%
-  \su@ExpandTwoArgs{#1}{#2}\su@IfSubStringInString
-}
+\ifx \IfSubStringInString\undefined 
+  \newcommand*{\IfSubStringInString}[2]{%
+     \su@ExpandTwoArgs{#1}{#2}\su@IfSubStringInString
+  }
+\fi
 %%
-\newcommand*{\su@IfSubStringInString}[2]{%
-  \def\su@compare##1#1##2\@nil{%
-    \def\su@param{##2}%
-    \ifx\su@param\@empty
-      \expandafter\@secondoftwo
-    \else
-      \expandafter\@firstoftwo
-    \fi
-  }%
-  \su@compare#2#1\@nil
-}
+\ifx \su@IfSubStringInString\undefined 
+   \newcommand*{\su@IfSubStringInString}[2]{%
+     \def\su@compare##1#1##2\@nil{%
+       \def\su@param{##2}%
+       \ifx\su@param\@empty
+         \expandafter\@secondoftwo
+       \else
+         \expandafter\@firstoftwo
+       \fi
+     }%
+     \su@compare#2#1\@nil
+   }
+\fi
 
 %----------------------------------------------------------------
 
@@ -225,6 +200,9 @@
 \ExecuteOptions{abnt-option-file}
 
 % recuo : compatibility with old norms
+\ifx \bibindent\undefined
+  \newlength{\bibindent}
+\fi  
 \setlength{\bibindent}{0em}
 \DeclareOption{recuo}{\setlength{\bibindent}{1.8em}}
 
@@ -238,12 +216,22 @@
 \DeclareOption{overcite}{\setboolean{ABNTovercite}{true}}
 \DeclareOption{inlinecite}{\setboolean{ABNTovercite}{false}}
 
+% \authorcapstyle em versalete (smallcaps) como opcional
+\newboolean{ABNTversalete}
+\setboolean{ABNTversalete}{false}
+\DeclareOption{versalete}{\setboolean{ABNTversalete}{true}}
 
 % 10520:2002 does not allow (XX) or [XX] for superscript cites
 \newboolean{ABNTstrictnumformat}
-\DeclareOption{nbr10520-2001}{\input{nbr10520-2001.def}}
-\DeclareOption{nbr10520-2002}{\input{nbr10520-2002.def}}
-\ExecuteOptions{nbr10520-2002}
+
+% Incorpora o arquivo nbr10520-2002.def do abntex1
+% A norma NBR 10520:2002 removeu as opÃ§Ãµes [] e () para citaÃ§Ãµes
+% em superscrito
+\ifx\AbntCitetype\AbntCitetypeALF
+\else
+\renewcommand{\setcitebrackets}{
+\ifthenelse{\boolean{ABNTovercite}}{\citebrackets{}{}}{\citebrackets()}}
+\fi
 
 %
 %  Allocing variables
@@ -297,10 +285,42 @@
 \provideboolean{ABNThyperref}
 
 \@ifpackageloaded{hyperref}{%
-\addtociteoptionlist{abnt-url-package=hyperref}
+%\addtociteoptionlist{abnt-url-package=hyperref}
 \setboolean{ABNThyperref}{true}
 }{\setboolean{ABNThyperref}{false}}
+
+\@ifpackageloaded{url}{%
+\addtociteoptionlist{abnt-url-package=url}
+\def\UrlLeft{<}
+\def\UrlRight{>}
+\urlstyle{same}}
+
+\provideboolean{ABNTbackref} %By AWSS
+
+\@ifpackageloaded{backref}{% %By AWSS
+\setboolean{ABNTbackref}{true} %By AWSS
+}{\setboolean{ABNTbackref}{false}} %By AWSS
+
 \ProcessOptions
+
+% Check if not running pdf/xe/lua/htlatex, then load breakurl
+%   From http://tex.stackexchange.com/a/53943
+\RequirePackage{ifpdf,ifxetex}
+\edef\texforht{TT\noexpand\fi
+  \@ifpackageloaded{tex4ht}
+    {\noexpand\iftrue}
+    {\noexpand\iffalse}}
+\ifpdf
+\else
+  \ifxetex
+  \else
+    \if\texforht
+    \else
+      \@ifpackageloaded{hyperref}
+        {\RequirePackage{breakurl}}{}
+    \fi% texforht
+  \fi% xetex
+\fi% pdftex
 
 % really foot?
 \ifthenelse{\boolean{ABCIfoot}\and\equal{\AbntCitetype}{num}}
@@ -352,21 +372,30 @@
 %     If NO
 %       no changes to \bibliography
 
-\def\bibliography#1{%
-  \ifthenelse{\boolean{ABCIciteoptionwasused}
-               \and\boolean{ABCIauto-abntoptions}}
-   {
-   % this system of checking is not good...
-    \IfSubStringInString{abnt-options}{#1}
-      {\if@filesw\immediate\write\@auxout{\string\bibdata{#1}}\fi}
-      {\if@filesw\immediate\write\@auxout{\string\bibdata{abnt-options,#1}}\fi}
-   }
-   {
-    \if@filesw
-       \immediate\write\@auxout{\string\bibdata{#1}}%
-    \fi
-   }
- \@input@{\jobname.bbl}}
+\def\bibliography#1{% ****
+  {
+	  \ifx \SingleSpacing\undefined
+	    \singlespacing
+	  \else
+	    \SingleSpacing   
+	  \fi  
+	  %
+	  \ifthenelse{\boolean{ABCIciteoptionwasused}
+	               \and\boolean{ABCIauto-abntoptions}}
+	   {
+	   % this system of checking is not good...
+	    \IfSubStringInString{abntex2-options}{#1}
+	      {\if@filesw\immediate\write\@auxout{\string\bibdata{#1}}\fi}
+	      {\if@filesw\immediate\write\@auxout{\string\bibdata{abntex2-options,#1}}\fi}
+	      }
+	   {
+	    \if@filesw
+	       \immediate\write\@auxout{\string\bibdata{#1}}%
+	    \fi
+	   }
+	 \@input@{\jobname.bbl}
+  }
+ }
 
 
 %
@@ -390,7 +419,7 @@
 % \AtEndDocument is the last chace for include bibliography style..
 \AtEndDocument{
   \ifthenelse{\not\boolean{ABCIbibtexstyleused}}
-    {\bibliographystyle{abnt-\AbntCitetype}}
+    {\bibliographystyle{abntex2-\AbntCitetype}}
     {}
 }
 
@@ -404,7 +433,7 @@
 
 
 
-\newcommand{\authorcapstyle}{\smaller}
+\newcommand{\authorcapstyle}{\ifthenelse{\boolean{ABNTversalete}}{\smaller}{}}
 \newcommand{\authorstyle}{\relax}
 \newcommand{\yearstyle}{\relax}
 \newcommand{\optionaltextstyle}{\relax}
@@ -515,8 +544,8 @@
 %we are repeating \bibcite command as defined in hyperref.sty
 %so that we have it all together at one place.
 \ifthenelse{\boolean{ABNThyperref}}{%
-\renewcommand{\bibcite}[2]{%
- \@newl@bel{b}{#1}{\hyper@@link[cite]{}{cite.#1}{#2}}}%
+%\renewcommand{\bibcite}[2]{%
+% \@newl@bel{b}{#1}{\hyper@@link[cite]{}{cite.#1}{#2}}}%
 \newcommand{\bibciteEXPL}[2]{%
  \@newl@bel{b}{#1++EXPL}{\hyper@@link[cite]{}{cite.#1}{#2}}}%
 \newcommand{\bibciteIMPL}[2]{%
@@ -627,6 +656,7 @@
              \fi%
              \let\@citeprevious\@citename%
            }%
+           \ifthenelse{\boolean{ABNTbackref}}{\Hy@backout{#2}}{}% By AWSS: put backref
         }% end for
     }{#1}%
   }
@@ -683,6 +713,7 @@
             {\yearstyle\@citeyear\@}%
             \let\@citeprevious\@citename%
            }%
+           \ifthenelse{\boolean{ABNTbackref}}{\Hy@backout{#2}}{}% By AWSS: put backref
         }% end for
     }{#1}%
   }
@@ -926,6 +957,7 @@
          \fi%
          \let\@citeprevious\@citename%
        }%
+       \ifthenelse{\boolean{ABNTbackref}}{\Hy@backout{#1}}{}% By AWSS: put backref
     }% end for
 }
 
@@ -970,6 +1002,7 @@
          \fi%
          \let\@citeprevious\@citename%
        }%
+       \ifthenelse{\boolean{ABNTbackref}}{\Hy@backout{#1}}{}% By AWSS: put backref
     }% end for
 }
 
@@ -1013,6 +1046,7 @@
          \fi%
          \let\@citeprevious\@citename%
        }%
+       \ifthenelse{\boolean{ABNTbackref}}{\Hy@backout{#1}}{}% By AWSS: put backref
     }% end for
 }
 
@@ -1059,6 +1093,7 @@
          \fi%
          \let\@citeprevious\@citename%
        }%
+       \ifthenelse{\boolean{ABNTbackref}}{\Hy@backout{#1}}{}% By AWSS: put backref
     }% end for
 }
 
@@ -1272,11 +1307,15 @@
 \newcommand{\cfcitename}{Cf.}
 \newcommand{\etseqname}{et seq.}
 
+\DeclareRobustCommand{\footciteref}[1]{%
+\footnote{\citetext{#1}}
+}
+
 \newcommand{\apud}[3][]{(\citeauthor{#2}, \citeyear{#2} \apudname\ %
 \citeauthor{#3}, \citeyear{#3}%
 \ifthenelse{\equal{#1}{\empty}}{}{, #1})}
 
-\newcommand{\apudonline}[3][]{\citeauthoronline{#2} (\apudname\ %
+\newcommand{\apudonline}[3][]{\citeauthoronline{#2} (\citeyear{#2} \apudname\ %
 \citeauthor{#3}, \citeyear{#3}%
 \ifthenelse{\equal{#1}{\empty}}{}{, #1})}
 
@@ -1306,6 +1345,5 @@
 
 
 \endinput
-
 
 
