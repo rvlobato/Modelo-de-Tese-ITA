@@ -1,5 +1,5 @@
 %==============================================================================
-% This is the ITA LateX class - classe de documento com padroes do ITA
+% This is the ITA LateX class - classe de documento com padrões do ITA
 % written by
 %              Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
 %
