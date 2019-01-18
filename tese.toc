@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{14}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objetivo}{14}{section.1.1}
 \contentsline {section}{\numberline {1.2}Motiva\c c\~ao}{14}{section.1.2}

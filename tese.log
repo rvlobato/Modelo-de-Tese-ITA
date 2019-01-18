@@ -1,100 +1,102 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.29)  29 AUG 2016 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.1.13)  18 JAN 2019 10:28
 entering extended mode
-**./tese.tex
-(tese.tex
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(ita.cls
-Document Class: ita 2006/03/10 v2.0 Classe de documento com padrões do ITA
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-) (defaults.def) (mscfem.def)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tese.tex
+(./tese.tex
+LaTeX2e <2018-04-01> patch level 5
+(./ita.cls
+Document Class: ita 2006/03/10 v2.0 Classe de documento com padroes do ITA
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) (./defaults.def)
+(./mscfem.def) (/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk12.clo"
+(/usr/share/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count88
-\calc@Bcount=\count89
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count89
+\calc@Bcount=\count90
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count90
+\calc@Ccount=\count91
 \calc@Cskip=\skip45
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/04/23 3.9r The Babel package
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+(/usr/share/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
-Language: english 2012/08/20 v3.3p English support from the babel system
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count91
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count92
 \U@D=\dimen105
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count93
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-portuges\portuges.ldf
+(/usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 145.
 )
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-portuges\portuges.ldf
+(/usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
-)) (itabr.babel)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+)) (./itabr.babel) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2015/03/17 v1.2c Input encoding file
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/04/06 v1.3b Input encoding file
 ))
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-\fancy@headwidth=\skip46
-\f@ncyO@elh=\skip47
-\f@ncyO@erh=\skip48
-\f@ncyO@olh=\skip49
-\f@ncyO@orh=\skip50
-\f@ncyO@elf=\skip51
-\f@ncyO@erf=\skip52
-\f@ncyO@olf=\skip53
-\f@ncyO@orf=\skip54
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip46
+\f@nch@O@elh=\skip47
+\f@nch@O@erh=\skip48
+\f@nch@O@olh=\skip49
+\f@nch@O@orh=\skip50
+\f@nch@O@elf=\skip51
+\f@nch@O@erf=\skip52
+\f@nch@O@olf=\skip53
+\f@nch@O@orf=\skip54
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -102,20 +104,20 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+(/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+(/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -127,85 +129,81 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@parindent=\dimen111
 \caption@hangindent=\dimen112
 )
-\c@ContinuedFloat=\count92
+\c@caption@flags=\count94
+\c@ContinuedFloat=\count95
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count93
+\LTchunksize=\count96
 \LTcapwidth=\dimen113
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count94
-\LT@rows=\count95
-\c@LT@tables=\count96
-\c@LT@chunks=\count97
+\LT@cols=\count97
+\LT@rows=\count98
+\c@LT@tables=\count99
+\c@LT@chunks=\count100
 \LT@p@ftn=\toks18
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen114
+\ar@mcellbox=\box30
 \extrarowheight=\dimen115
 \NC@list=\toks19
 \extratabsurround=\skip59
 \backup@length=\skip60
+\ar@cellbox=\box31
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@col@width=\dimen116
 \TX@old@table=\dimen117
 \TX@old@col=\dimen118
 \TX@target=\dimen119
 \TX@delta=\dimen120
-\TX@cols=\count98
+\TX@cols=\count101
 \TX@ftn=\toks20
-) (makeglo.sty
+) (./makeglo.sty
 Package: makeglo 
 \glossentrylen=\skip61
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count99
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\hyphenat\hyphenat.sty
+(/usr/share/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language75
+\langwohyphens=\language85
 LaTeX Info: Redefining \_ on input line 43.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+(/usr/share/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -219,13 +217,15 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -239,106 +239,113 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen121
-\Hy@linkcounter=\count100
-\Hy@pagecounter=\count101
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count102
+\Hy@SavedSpaceFactor=\count104
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `debug' set `true' on input line 4362.
+Package hyperref Info: Option `debug' set `true' on input line 4409.
 
 
 Package hyperref Warning: Option `a4paper' is no longer used.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 4362.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4362.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4362.
-Package hyperref Info: Option `hyperindex' set `true' on input line 4362.
-Package hyperref Info: Option `verbose' set `true' on input line 4362.
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing ON on input line 4504.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4409.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4409.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4409.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4409
+.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4409.
+Package hyperref Info: Option `verbose' set `true' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing ON on input line 4553.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
+Package hyperref Info: Bookmarks ON on input line 4788.
+(/usr/share/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 ))
-\c@Hy@tempcnt=\count103
+\c@Hy@tempcnt=\count105
 
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5141.
 \XeTeXLinkMargin=\dimen122
-\Fld@menulength=\count104
+\Fld@menulength=\count106
 \Field@Width=\dimen123
 \Fld@charsize=\dimen124
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing ON on input line 6355.
-Package hyperref Info: Link coloring ON on input line 6360.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count105
-\c@Item=\count106
-\c@Hfootnote=\count107
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing ON on input line 6409.
+Package hyperref Info: Link coloring ON on input line 6414.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count108
-\c@bookmark@seq@number=\count109
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
 \Hy@SectionHShift=\skip62
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\ae.sty"
+(/usr/share/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+
+(/usr/share/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+)))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -346,11 +353,11 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count110
-\Gm@cntv=\count111
-\c@Gm@tempcnt=\count112
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
 \Gm@bindingoffset=\dimen127
 \Gm@wd@mp=\dimen128
 \Gm@odd@mp=\dimen129
@@ -360,85 +367,87 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen133
 \Gm@layoutvoffset=\dimen134
 \Gm@dimlist=\toks21
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (abntcite.sty (cvs-id.def)
+) (./abntcite.sty
+(./cvs-id.def)
 Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
- (abntex-abrev.sty
-(cvs-id.def)
+ (./abntex-abrev.sty (./cvs-id.def)
 Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
- (nbr10522-1988.def (cvs-id.def)
-File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:1988)
-) (abntex-abrev-pt_BR.def (cvs-id.def)
-File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traducao de termos en_US/pt_BR
-)) (nbr10520-2002.def (cvs-id.def)
-File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002)
+ (./nbr10522-1988.def
+(./cvs-id.def)
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
+) (./abntex-abrev-pt_BR.def (./cvs-id.def)
+File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
+)) (./nbr10520-2002.def (./cvs-id.def)
+File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
+)
 )
 \minimumbiblabelwidth=\skip63
 \ABCIauxlen=\skip64
-\c@ABCIaux=\count113
-\c@ABCImax=\count114
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
+\c@ABCIaux=\count115
+\c@ABCImax=\count116
+ (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip65
 LaTeX Info: Redefining \newblock on input line 562.
 LaTeX Info: Redefining \cite on input line 589.
 \ABCItoken=\toks22
 )
-\c@mecounter=\count115
-\c@kwcipcounter=\count116
-\nohyphen=\language76
+\c@mecounter=\count117
+\c@kwcipcounter=\count118
+\nohyphen=\language86
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen135
 \epsfysize=\dimen136
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen137
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen138
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count117
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count118
-\leftroot@=\count119
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count120
-\DOTSCASE@=\count121
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box30
-\strutbox@=\box31
+\inf@bad=\count119
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count120
+\leftroot@=\count121
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count122
+\DOTSCASE@=\count123
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
 \big@size=\dimen139
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count124
+\c@MaxMatrixCols=\count125
 \dotsspace@=\muskip11
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
+\c@parentequation=\count126
+\dspbrk@lvl=\count127
 \tag@help=\toks24
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
+\row@=\count128
+\column@=\count129
+\maxfields@=\count130
 \andhelp@=\toks25
 \eqnshift@=\dimen140
 \alignsep@=\dimen141
@@ -450,45 +459,49 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip67
 \multlinetaggap=\skip68
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count129
+\c@KVtest=\count131
 \sf@farskip=\skip69
 \sf@captopadj=\dimen146
 \sf@capskip=\skip70
 \sf@nearskip=\skip71
-\c@subfigure=\count130
-\c@subfigure@save=\count131
-\c@lofdepth=\count132
-\c@subtable=\count133
-\c@subtable@save=\count134
-\c@lotdepth=\count135
+\c@subfigure=\count132
+\c@subfigure@save=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@subtable@save=\count136
+\c@lotdepth=\count137
 \sf@top=\skip72
 \sf@bottom=\skip73
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count138
+\multirow@dima=\skip75
 \bigstrutjot=\dimen147
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count136
+\c@float@type=\count139
 \float@exts=\toks28
-\float@box=\box32
+\float@box=\box34
 \@float@everytoks=\toks29
-\@floatcapt=\box33
+\@floatcapt=\box35
 )
 \@glossaryfile=\write3
 \openout3 = `tese.glo'.
 
 
 Writing glossary file tese.glo 
-(tese.aux)
+(./tese.aux)
 \openout1 = `tese.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -513,50 +526,57 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+ (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\Jorge\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
+\scratchcounter=\count140
 \scratchdimen=\dimen148
-\scratchbox=\box34
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\scratchbox=\box36
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count140
+\MPscratchCnt=\count143
 \MPscratchDim=\dimen149
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
 \everyMPtoPDFconversion=\toks31
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-\AtBeginShipoutBox=\box35
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box37
 Package hyperref Info: Link coloring ON on input line 115.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count146
 )
 LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
 LaTeX Info: Redefining \nameref on input line 115.
- (tese.out) (tese.out)
+ (./tese.out)
+(./tese.out)
 \@outlinefile=\write4
 \openout4 = `tese.out'.
 
@@ -595,126 +615,78 @@ Package hyperref Info: Anchor `Doc-Start' on input line 115.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@butlastpage=\count144
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
+\c@butlastpage=\count147
 Package hyperref Info: Anchor `titulo.0' on input line 117.
 LaTeX Font Info:    Try loading font information for U+msa on input line 117.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 117.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
 Package hyperref Info: Anchor `page.i' on input line 117.
  [1
 
 
 
-{C:/Users/Jorge/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package hyperref Info: Anchor `cip.0' on input line 117.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--117
 
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
 Package hyperref Info: Anchor `page.ii' on input line 117.
 [2]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
 Package hyperref Info: Anchor `aprovacao.0' on input line 117.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 117.
 Package hyperref Info: Anchor `page.iii' on input line 117.
  [3]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 120.
 Package hyperref Info: Anchor `dedication.0' on input line 120.
 
 Underfull \hbox (badness 4660) in paragraph at lines 121--122
 []\T1/aer/m/n/12 Aos ami-gos da Gra-du-a-ção e Pós-
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
 Package hyperref Info: Anchor `page.iv' on input line 122.
 [4]
 Package hyperref Info: Anchor `chapter*.1' on input line 126.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 126.
 Package hyperref Info: Anchor `acknowledgment.0' on input line 126.
- (Cap0/agradecimentos.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 127.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 127.
+ (./Cap0/agradecimentos.tex)
 Package hyperref Info: Anchor `page.v' on input line 127.
  [5
 
 ]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
 Package hyperref Info: Anchor `epigrafe.0' on input line 131.
 LaTeX Font Info:    Try loading font information for T1+aess on input line 135.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aess.fd"
+
+
+(/usr/share/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 135.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
 Package hyperref Info: Anchor `page.vi' on input line 143.
  [6]
 Package hyperref Info: Anchor `chapter*.2' on input line 143.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
 Package hyperref Info: Anchor `resumo.0' on input line 143.
- (Cap0/resumo.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 149.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 149.
+ (./Cap0/resumo.tex)
 Package hyperref Info: Anchor `page.vii' on input line 149.
-
-[7
+ [7
 
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 149.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 149.
 Package hyperref Info: Anchor `abstract.0' on input line 149.
- (Cap0/abstract.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 155.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 155.
+
+(./Cap0/abstract.tex)
 Package hyperref Info: Anchor `page.viii' on input line 155.
  [8
 
 ]
 Package hyperref Info: Anchor `chapter*.4' on input line 155.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 155.
 Package hyperref Info: Anchor `listafiguras.0' on input line 155.
- (tese.lof
+ (./tese.lof
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 3.
 Package hyperref Info: Reference (link) `figure.caption.10' on input line 4.
 Package hyperref Info: Reference (link) `figure.caption.12' on input line 6.
@@ -723,10 +695,6 @@ Package hyperref Info: Reference (link) `figure.caption.14' on input line 10.
 \tf@lof=\write5
 \openout5 = `tese.lof'.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
 Package hyperref Info: Anchor `page.ix' on input line 158.
  [9
 
@@ -736,68 +704,49 @@ Package `hyperref' Info: End of reference (link) `figure.caption.12', line 6.
 Package `hyperref' Info: End of reference (link) `figure.caption.14', line 10.
 ]
 Package hyperref Info: Anchor `chapter*.5' on input line 158.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
 Package hyperref Info: Anchor `listatabelas.0' on input line 158.
- (tese.lot
+ (./tese.lot
 Package hyperref Info: Reference (link) `table.caption.11' on input line 4.
 )
 \tf@lot=\write6
 \openout6 = `tese.lot'.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
 Package hyperref Info: Anchor `page.x' on input line 161.
  [10
 
 Package `hyperref' Info: End of reference (link) `table.caption.11', line 4.
 ]
 Package hyperref Info: Anchor `chapter*.6' on input line 161.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
 Package hyperref Info: Anchor `listaabreviaturas.0' on input line 161.
- (tese.lof)
+ (./tese.lof)
 \tf@lof=\write7
 \openout7 = `tese.lof'.
 
- (Cap0/listaabreviaturas.tex
+
+(./Cap0/listaabreviaturas.tex
 Package hyperref Info: Anchor `table.0.1' on input line 15.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 165.
 Package hyperref Info: Anchor `page.xi' on input line 165.
  [11
 
 ]
 Package hyperref Info: Anchor `chapter*.7' on input line 165.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 165.
 Package hyperref Info: Anchor `listasimbolos.0' on input line 165.
- (tese.lof)
+ (./tese.lof)
 \tf@lof=\write8
 \openout8 = `tese.lof'.
 
-
-(Cap0/listasimbolos.tex
+ (./Cap0/listasimbolos.tex
 Package hyperref Info: Anchor `table.0.2' on input line 9.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
 Package hyperref Info: Anchor `page.xii' on input line 169.
- [12
+
+[12
 
 ]
 Package hyperref Info: Anchor `chapter*.8' on input line 169.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
 Package hyperref Info: Anchor `contents.0' on input line 169.
- (tese.toc
+ (./tese.toc
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []  
  []
@@ -851,10 +800,6 @@ Package hyperref Info: Reference (link) `section.a.1' on input line 20.
 \tf@toc=\write9
 \openout9 = `tese.toc'.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 171.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 171.
 Package hyperref Info: Anchor `page.xiii' on input line 171.
  [13
 
@@ -877,13 +822,10 @@ Package `hyperref' Info: End of reference (link) `section.a.1', line 20.
 Package hyperref Info: Anchor `chapter.1' on input line 174.
 
 Cap\'{\i }tulo 1.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 174.
-pdftex: bookmark at 174: {1} {\numberline{1}Introdu\c c\~ao} {chapter.1}{0}{toc}
-(Cap1/cap1.tex
+pdftex: bookmark at 174: {1} {\numberline{1}Introdu\c c\~ao} {chapter.1}{0}{toc
+}
+(./Cap1/cap1.tex
 Package hyperref Info: Anchor `section.1.1' on input line 1.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
 
 pdftex: bookmark at 1: {1.1} {\numberline{1.1}Objetivo} {section.1.1}{1}{toc}
 Package hyperref Info: Reference (cite) `cite.Nascimento1970' on input line 3.
@@ -893,34 +835,33 @@ Package hyperref Info: Reference (cite) `cite.Patagonios2001' on input line 5.
 Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 6.
 Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 6.
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 8.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+(/usr/share/texmf/tex/latex/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 Package hyperref Info: Anchor `section.1.2' on input line 13.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
 
-pdftex: bookmark at 13: {1.2} {\numberline{1.2}Motiva\c c\~ao} {section.1.2}{1}{toc}
+pdftex: bookmark at 13: {1.2} {\numberline{1.2}Motiva\c c\~ao} {section.1.2}{1}
+{toc}
 Package hyperref Info: Reference (cite) `cite.Sbornian2002' on input line 14.
 Package hyperref Info: Reference (cite) `cite.Sbornian2002' on input line 14.
 Package hyperref Info: Reference (cite) `cite.ITALUS2004' on input line 20.
 Package hyperref Info: Reference (cite) `cite.ITALUS2004' on input line 20.
 Package hyperref Info: Reference (cite) `cite.Arystides1994' on input line 23.
 Package hyperref Info: Reference (cite) `cite.Arystides1994' on input line 23.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
 Package hyperref Info: Anchor `page.14' on input line 24.
 [14
 
 
 Package `hyperref' Info: End of reference (cite) `cite.Nascimento1970', line 3.
+
 Package `hyperref' Info: End of reference (cite) `cite.Nascimento1970', line 3.
+
 Package `hyperref' Info: End of reference (cite) `cite.Patagonios2001', line 5.
+
 Package `hyperref' Info: End of reference (cite) `cite.Patagonios2001', line 5.
+
 Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 6.
 Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 6.
 Package `hyperref' Info: End of reference (cite) `cite.Sbornian2002', line 14.
@@ -929,72 +870,59 @@ Package `hyperref' Info: End of reference (cite) `cite.ITALUS2004', line 20.
 Package `hyperref' Info: End of reference (cite) `cite.ITALUS2004', line 20.
 ]
 Package hyperref Info: Anchor `figure.caption.9' on input line 25.
- <Cap1/cupim.pdf, id=245, 233.87375pt x 221.82875pt>
+<Cap1/cupim.pdf, id=247, 233.87375pt x 221.82875pt>
 File: Cap1/cupim.pdf Graphic file (type pdf)
- <use Cap1/cupim.pdf>
-Package pdftex.def Info: Cap1/cupim.pdf used on input line 27.
+<use Cap1/cupim.pdf>
+Package pdftex.def Info: Cap1/cupim.pdf  used on input line 27.
 (pdftex.def)             Requested size: 227.62206pt x 215.9115pt.
 
-pdftex: bookmark at 28: {1.1} {\numberline{1.1}{\ignorespaces Proibido estacionar cupins. Legenda grande, com o objetivo
- de demonstrar a indenta\c c\~ao na lista de figuras.\relax }} {figure.caption.9}{0}{lof}
+pdftex: bookmark at 28: {1.1} {\numberline{1.1}{\ignorespaces Proibido estacion
+ar cupins. Legenda grande, com o objetivo de demonstrar a indenta\c c\~ao na li
+sta de figuras.\relax }} {figure.caption.9}{0}{lof}
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 34.
 Package hyperref Info: Reference (cite) `cite.COFFEE2000' on input line 36.
 Package hyperref Info: Reference (cite) `cite.COFFEE2000' on input line 36.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
 Package hyperref Info: Anchor `page.15' on input line 40.
 [15
 Package `hyperref' Info: End of reference (cite) `cite.Arystides1994', line 23.
+
 Package `hyperref' Info: End of reference (cite) `cite.Arystides1994', line 23.
+
 Package `hyperref' Info: End of reference (link) `figure.caption.9', line 34.
 Package `hyperref' Info: End of reference (cite) `cite.COFFEE2000', line 36.
 Package `hyperref' Info: End of reference (cite) `cite.COFFEE2000', line 36.
  <./Cap1/cupim.pdf>]
 Package hyperref Info: Anchor `figure.caption.10' on input line 45.
- <Cap1/cupimconcreto.pdf, id=258, 401.5pt x 289.08pt>
+<Cap1/cupimconcreto.pdf, id=260, 401.5pt x 289.08pt>
 File: Cap1/cupimconcreto.pdf Graphic file (type pdf)
- <use Cap1/cupimconcreto.pdf>
-Package pdftex.def Info: Cap1/cupimconcreto.pdf used on input line 47.
+<use Cap1/cupimconcreto.pdf>
+Package pdftex.def Info: Cap1/cupimconcreto.pdf  used on input line 47.
 (pdftex.def)             Requested size: 455.24411pt x 327.79903pt.
 
-pdftex: bookmark at 48: {1.2} {\numberline{1.2}{\ignorespaces Exemplo real de cupim frente ao seu dilema.\relax }} {figu
-re.caption.10}{0}{lof}
+pdftex: bookmark at 48: {1.2} {\numberline{1.2}{\ignorespaces Exemplo real de c
+upim frente ao seu dilema.\relax }} {figure.caption.10}{0}{lof}
 Package hyperref Info: Anchor `section.1.3' on input line 52.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
-pdftex: bookmark at 52: {1.3} {\numberline{1.3}Organiza\c c\~ao do trabalho} {section.1.3}{1}{toc}
+pdftex: bookmark at 52: {1.3} {\numberline{1.3}Organiza\c c\~ao do trabalho} {s
+ection.1.3}{1}{toc}
 Package hyperref Info: Anchor `subsection.1.3.1' on input line 53.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
-pdftex: bookmark at 53: {1.3.1} {\numberline{1.3.1}Sub-organiza\c c\~ao} {subsection.1.3.1}{2}{toc}
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 55.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 55.
+pdftex: bookmark at 53: {1.3.1} {\numberline{1.3.1}Sub-organiza\c c\~ao} {subse
+ction.1.3.1}{2}{toc}
 Package hyperref Info: Anchor `page.16' on input line 55.
 [16 <./Cap1/cupimconcreto.pdf>]
 Package hyperref Info: Anchor `subsubsection.1.3.1.1' on input line 56.
 
-pdftex: bookmark at 56: {1.3.1.1} {\numberline{1.3.1.1}SubSub-organiza\c c\~ao} {subsubsection.1.3.1.1}{3}{toc}
+pdftex: bookmark at 56: {1.3.1.1} {\numberline{1.3.1.1}SubSub-organiza\c c\~ao}
+ {subsubsection.1.3.1.1}{3}{toc}
 Package hyperref Info: Anchor `subsubsection.1.3.1.2' on input line 60.
-pdftex: bookmark at 60: {1.3.1.2} {\numberline{1.3.1.2}Outra subsub-organizacao} {subsubsection.1.3.1.2}{3}{toc}
+pdftex: bookmark at 60: {1.3.1.2} {\numberline{1.3.1.2}Outra subsub-organizacao
+} {subsubsection.1.3.1.2}{3}{toc}
 Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 73.
 Package hyperref Info: Reference (cite) `cite.Furmento1995' on input line 73.
 Package hyperref Info: Reference (cite) `cite.Morgado2003' on input line 73.
 Package hyperref Info: Reference (cite) `cite.Morgado2003' on input line 73.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
 Package hyperref Info: Anchor `page.17' on input line 177.
  [17]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
 Package hyperref Info: Anchor `page.18' on input line 177.
  [18
 Package `hyperref' Info: End of reference (cite) `cite.Furmento1995', line 73.
@@ -1005,43 +933,42 @@ Package `hyperref' Info: End of reference (cite) `cite.Morgado2003', line 73.
 Package hyperref Info: Anchor `chapter.2' on input line 177.
 
 Cap\'{\i }tulo 2.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
-pdftex: bookmark at 177: {2} {\numberline{2}Modelagem Din\^amica de Cupins Cibern\'eticos} {chapter.2}{0}{toc}
-(Cap2/cap2.tex
+pdftex: bookmark at 177: {2} {\numberline{2}Modelagem Din\^amica de Cupins Cibe
+rn\'eticos} {chapter.2}{0}{toc}
+(./Cap2/cap2.tex
 Package hyperref Info: Anchor `section.2.1' on input line 1.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
 
-pdftex: bookmark at 1: {2.1} {\numberline{2.1}Modelagem no espa\c co das juntas} {section.2.1}{1}{toc}
+pdftex: bookmark at 1: {2.1} {\numberline{2.1}Modelagem no espa\c co das juntas
+} {section.2.1}{1}{toc}
 Package hyperref Info: Reference (cite) `cite.Sbornian2004' on input line 2.
 Package hyperref Info: Reference (cite) `cite.Sbornian2004' on input line 2.
 Package hyperref Info: Reference (cite) `cite.Joea2003' on input line 3.
 Package hyperref Info: Reference (cite) `cite.Joea2003' on input line 3.
 Package hyperref Info: Reference (link) `table.caption.11' on input line 3.
 Package hyperref Info: Reference (cite) `cite.Assenmacher1993' on input line 3.
+
 Package hyperref Info: Reference (cite) `cite.Assenmacher1993' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 3.
-Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 3.
+
+Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 3
+.
+Package hyperref Info: Reference (cite) `cite.Silberschatz1991' on input line 3
+.
 Package hyperref Info: Reference (cite) `cite.Caromel1998' on input line 3.
 Package hyperref Info: Reference (cite) `cite.Caromel1998' on input line 3.
 Package hyperref Info: Anchor `table.caption.11' on input line 6.
-pdftex: bookmark at 6: {2.1} {\numberline{2.1}{\ignorespaces Exemplo de uma Tabela\relax }} {table.caption.11}{0}{lot}
+pdftex: bookmark at 6: {2.1} {\numberline{2.1}{\ignorespaces Exemplo de uma Tab
+ela\relax }} {table.caption.11}{0}{lot}
 Package hyperref Info: Reference (cite) `cite.Callaghan1995' on input line 22.
 Package hyperref Info: Reference (cite) `cite.Callaghan1995' on input line 22.
 Package hyperref Info: Anchor `figure.caption.12' on input line 24.
-<Cap2/spiderrobot.jpg, id=294, 614.295pt x 462.22687pt>
+<Cap2/spiderrobot.jpg, id=296, 614.295pt x 462.22687pt>
 File: Cap2/spiderrobot.jpg Graphic file (type jpg)
- <use Cap2/spiderrobot.jpg>
-Package pdftex.def Info: Cap2/spiderrobot.jpg used on input line 26.
+<use Cap2/spiderrobot.jpg>
+Package pdftex.def Info: Cap2/spiderrobot.jpg  used on input line 26.
 (pdftex.def)             Requested size: 341.43307pt x 256.91275pt.
-
-pdftex: bookmark at 27: {2.1} {\numberline{2.1}{\ignorespaces Cupim cibern\'etico.\relax }} {figure.caption.12}{0}{lof}
+pdftex: bookmark at 27: {2.1} {\numberline{2.1}{\ignorespaces Cupim cibern\'eti
+co.\relax }} {figure.caption.12}{0}{lof}
 Package hyperref Info: Anchor `equation.2.1.1' on input line 32.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
 Package hyperref Info: Anchor `page.19' on input line 34.
 [19
 
@@ -1050,46 +977,42 @@ Package `hyperref' Info: End of reference (cite) `cite.Sbornian2004', line 2.
 Package `hyperref' Info: End of reference (cite) `cite.Joea2003', line 3.
 Package `hyperref' Info: End of reference (cite) `cite.Joea2003', line 3.
 Package `hyperref' Info: End of reference (link) `table.caption.11', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 3.
-Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 3.
+Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 3
+.
+Package `hyperref' Info: End of reference (cite) `cite.Assenmacher1993', line 3
+.
+Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 
+3.
+Package `hyperref' Info: End of reference (cite) `cite.Silberschatz1991', line 
+3.
 Package `hyperref' Info: End of reference (cite) `cite.Caromel1998', line 3.
 Package `hyperref' Info: End of reference (cite) `cite.Caromel1998', line 3.
 Package `hyperref' Info: End of reference (cite) `cite.Callaghan1995', line 22.
+
 Package `hyperref' Info: End of reference (cite) `cite.Callaghan1995', line 22.
+
 ]
 Package hyperref Info: Anchor `equation.2.1.2' on input line 36.
 Package hyperref Info: Anchor `equation.2.1.3' on input line 41.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 180.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 180.
 Package hyperref Info: Anchor `page.20' on input line 180.
- [20 <./Cap2/spiderrobot.jpg>]
+ [20 <./Cap2/spiderrobot.JPG>]
 Package hyperref Info: Anchor `chapter.3' on input line 180.
 
 Cap\'{\i }tulo 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 180.
-pdftex: bookmark at 180: {3} {\numberline{3}Controle Robusto de Concretos Ca\'oticos} {chapter.3}{0}{toc}
-(Cap3/cap3.tex
+pdftex: bookmark at 180: {3} {\numberline{3}Controle Robusto de Concretos Ca\'o
+ticos} {chapter.3}{0}{toc}
+(./Cap3/cap3.tex
 Package hyperref Info: Anchor `section.3.1' on input line 1.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
 
-pdftex: bookmark at 1: {3.1} {\numberline{3.1}Controle combinado} {section.3.1}{1}{toc}
+pdftex: bookmark at 1: {3.1} {\numberline{3.1}Controle combinado} {section.3.1}
+{1}{toc}
 Package hyperref Info: Reference (link) `equation.3.1.1' on input line 2.
 Package hyperref Info: Anchor `equation.3.1.1' on input line 3.
 Package hyperref Info: Anchor `equation.3.1.2' on input line 10.
 Package hyperref Info: Reference (link) `equation.3.1.2' on input line 14.
 Package hyperref Info: Anchor `equation.3.1.3' on input line 15.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 183.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 183.
 Package hyperref Info: Anchor `page.21' on input line 183.
  [21
 
@@ -1099,25 +1022,17 @@ Package `hyperref' Info: End of reference (link) `equation.3.1.2', line 14.
 Package hyperref Info: Anchor `chapter.4' on input line 183.
 
 Cap\'{\i }tulo 4.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 183.
 pdftex: bookmark at 183: {4} {\numberline{4}Conclus\~ao} {chapter.4}{0}{toc}
-(Cap4/cap4.tex) (tese.bbl (tese.brf)
+(./Cap4/cap4.tex) (./tese.bbl (./tese.brf)
 \tf@brf=\write10
 \openout10 = `tese.brf'.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
 Package hyperref Info: Anchor `page.22' on input line 3.
  [22
 
 ]
 Package hyperref Info: Anchor `chapter*.13' on input line 3.
 Package hyperref Info: Anchor `chapter.5' on input line 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
 
 pdftex: bookmark at 3: {5} {Refer\^encias} {chapter.5}{0}{toc}
 Package hyperref Info: Anchor `cite.Arystides1994' on input line 13.
@@ -1131,10 +1046,6 @@ Package hyperref Info: Anchor `cite.Joea2003' on input line 64.
 Package hyperref Info: Anchor `cite.Morgado2003' on input line 71.
 Package hyperref Info: Anchor `cite.Nascimento1970' on input line 78.
 Package hyperref Info: Anchor `cite.Patagonios2001' on input line 86.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 97.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 97.
 Package hyperref Info: Anchor `page.23' on input line 97.
 [23
 
@@ -1146,10 +1057,6 @@ Package hyperref Info: Anchor `cite.Sbornian2002' on input line 97.
 Package hyperref Info: Anchor `cite.Sbornian2004' on input line 105.
 Package hyperref Info: Anchor `cite.Silberschatz1991' on input line 110.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 191.
 Package hyperref Info: Anchor `page.24' on input line 191.
  [24
 Package `hyperref' Info: End of reference (link) `equation.3.1.2', line 14.
@@ -1157,30 +1064,23 @@ Package `hyperref' Info: End of reference (link) `equation.3.1.2', line 14.
 Package hyperref Info: Anchor `appendix.A' on input line 192.
 
 Ap\^endice A.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 192.
-pdftex: bookmark at 192: {A} {\numberline{A}T\'opicos de Dilema Linear} {appendix.A}{0}{toc}
-(ApeA/apendiceA.tex
+pdftex: bookmark at 192: {A} {\numberline{A}T\'opicos de Dilema Linear} {append
+ix.A}{0}{toc}
+(./ApeA/apendiceA.tex
 Package hyperref Info: Anchor `section.A.1' on input line 1.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
 
-pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap\^endice} {section.A.1}{1}{toc}
+pdftex: bookmark at 1: {A.1} {\numberline{A.1}Uma Primeira Se\c c\~ao para o Ap
+\^endice} {section.A.1}{1}{toc}
 Package hyperref Info: Anchor `equation.A.1.1' on input line 6.
 Package hyperref Info: Anchor `figure.caption.14' on input line 14.
-<ApeA/pragas_ciclo_cupim.pdf, id=342, 401.5pt x 403.5075pt>
+<ApeA/pragas_ciclo_cupim.pdf, id=345, 401.5pt x 403.5075pt>
 File: ApeA/pragas_ciclo_cupim.pdf Graphic file (type pdf)
- <use ApeA/pragas_ciclo_cupim.pdf>
-Package pdftex.def Info: ApeA/pragas_ciclo_cupim.pdf used on input line 16.
+<use ApeA/pragas_ciclo_cupim.pdf>
+Package pdftex.def Info: ApeA/pragas_ciclo_cupim.pdf  used on input line 16.
 (pdftex.def)             Requested size: 142.26698pt x 142.26411pt.
-
-pdftex: bookmark at 17: {A.1} {\numberline{A.1}{\ignorespaces Uma figura que est\'a no ap\^endice\relax }} {figure.capti
-on.14}{0}{lof}
+pdftex: bookmark at 17: {A.1} {\numberline{A.1}{\ignorespaces Uma figura que es
+t\'a no ap\^endice\relax }} {figure.caption.14}{0}{lof}
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 196.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 196.
 Package hyperref Info: Anchor `page.25' on input line 196.
  [25
 
@@ -1189,54 +1089,40 @@ Package hyperref Info: Anchor `page.25' on input line 196.
 Package hyperref Info: Anchor `annex.a' on input line 197.
 
 Anexo A.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 197.
-pdftex: bookmark at 197: {A} {\numberline{A}Exemplo de um Primeiro Anexo} {annex.a}{0}{toc}
-(AneA/anexoA.tex
+pdftex: bookmark at 197: {A} {\numberline{A}Exemplo de um Primeiro Anexo} {anne
+x.a}{0}{toc}
+(./AneA/anexoA.tex
 Package hyperref Info: Anchor `section.a.1' on input line 2.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2.
 
-pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo} {section.a.1}{1}{toc}
+pdftex: bookmark at 2: {A.1} {\numberline{A.1}Uma Se\c c\~ao do Primeiro Anexo}
+ {section.a.1}{1}{toc}
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 221.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 221.
 Package hyperref Info: Anchor `page.26' on input line 221.
  [26
 
 
 ]
-\bottommargin=\skip74
-\rightmarginn=\skip75
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 221.
+\bottommargin=\skip76
+\rightmarginn=\skip77
 Package hyperref Info: Anchor `bla.0' on input line 221.
- (Cap0/resumo.tex) (Cap0/resumo.tex) (Cap0/resumo.tex)
+ (./Cap0/resumo.tex) (./Cap0/resumo.tex) (./Cap0/resumo.tex)
 Overfull \hbox (74.53033pt too wide) in paragraph at lines 221--221
 [][] 
  []
 
 
 AED: lastpage setting LastPage
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 223.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 223.
 Package hyperref Info: Anchor `page.27' on input line 223.
 [27
 
 ]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 223.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
- (tese.aux)
+ (./tese.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 138B38B83D041259A48480A5D96A2C1B;1816.
+(rerunfilecheck)             Checksum: C3BACE03ED9C2DB7D8B4ACD3219D7193;1787.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1246,29 +1132,33 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 10295 strings out of 493334
- 150674 string characters out of 3136672
- 264388 words of memory out of 3000000
- 13380 multiletter control sequences out of 15000+200000
- 60503 words of font info for 113 fonts, out of 3000000 for 9000
+ 10425 strings out of 492639
+ 150226 string characters out of 6135497
+ 273144 words of memory out of 5000000
+ 13871 multiletter control sequences out of 15000+600000
+ 60503 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,45p,1084b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmti12.pfb>
-Output written on tese.pdf (27 pages, 494712 bytes).
+ 43i,12n,45p,1081b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on tese.pdf (27 pages, 450375 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
  96 named destinations out of 1000 (max. 500000)
  253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
