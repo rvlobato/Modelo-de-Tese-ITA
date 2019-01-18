@@ -10,51 +10,51 @@ Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Database file #1: abnt-options.bib
 Database file #2: Referencias/referencias.bib
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 +---------------------------------------------------------+
-| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
-| Em caso de dúvidas ou problemas com este estilo procure |
-| http://abntex.codigolivre.org.br                        |
+| Estilo bibliogrÃ¡fico abntex2-alf.bst versÃ£o v-1.9.7           |
+| Em caso de dÃºvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
 You've used 19 entries,
-            6480 wiz_defined-function locations,
-            1290 strings with 11880 characters,
-and the built_in function-call counts, 19908 in all, are:
-= -- 2315
+            6714 wiz_defined-function locations,
+            1330 strings with 12062 characters,
+and the built_in function-call counts, 23160 in all, are:
+= -- 3121
 > -- 365
 < -- 341
-+ -- 530
++ -- 529
 - -- 111
-* -- 1235
+* -- 1234
 := -- 2405
 add.period$ -- 70
 call.type$ -- 21
 change.case$ -- 158
 chr.to.int$ -- 33
 cite$ -- 14
-duplicate$ -- 1668
-empty$ -- 1119
+duplicate$ -- 2481
+empty$ -- 1121
 format.name$ -- 535
-if$ -- 4378
+if$ -- 5196
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 292
+missing$ -- 295
 newline$ -- 80
 num.names$ -- 60
-pop$ -- 336
+pop$ -- 339
 preamble$ -- 1
 purify$ -- 69
 quote$ -- 0
-skip$ -- 1991
+skip$ -- 2795
 stack$ -- 1
-substring$ -- 800
-swap$ -- 581
+substring$ -- 799
+swap$ -- 587
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0

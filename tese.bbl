@@ -3,7 +3,7 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{1.45.2.1 }
+\abntbstabout{v-1.9.7 }
 
 \bibitem[Arystides e Medeiros 1995]{Arystides1994}
 \abntrefinfo{Arystides e Medeiros}{ARYSTIDES; MEDEIROS}{1995}
@@ -73,7 +73,7 @@ Trabalho de Conclusão de Curso (Especialização do curso) --- Faculdade de
 \abntrefinfo{Nascimento}{NASCIMENTO}{1971}
 {NASCIMENTO, E.~A. do.
 \textbf{An{\'a}lise de curvas curvil{\'\i}neas da trajet{\'o}ria da bola}.
-1970. 36~f. Dissertação (Mestrado em Ci{\^e}ncia do Futebol) --- Cosmos
+1970. 36~f. Disserta\c{c}\~{a}o (Mestrado em Ci{\^e}ncia do Futebol) --- Cosmos
   University, Cidade do Cabo, 1971.}
 
 \bibitem[Patagonios 2001]{Patagonios2001}
@@ -88,9 +88,9 @@ Trabalho de Conclusão de Curso (Especialização do curso) --- Faculdade de
 \abntrefinfo{Sbornian}{SBORNIAN}{2002}
 {SBORNIAN, W.
 \textbf{Um exemplo de disserta{\c{c}}{\~a}o de mestrado}.
-2002. 98~f. Dissertação (Mestrado em Ci{\^e}ncia da Computa{\c{c}}{\~a}o) ---
-  Instituto de Alguma Coisa, Universidade Sei L{\'a} de Onde, Santa
-  Pindamonhangaba, 2002.
+2002. 98~f. Disserta\c{c}\~{a}o (Mestrado em Ci{\^e}ncia da
+  Computa{\c{c}}{\~a}o) --- Instituto de Alguma Coisa, Universidade Sei L{\'a}
+  de Onde, Santa Pindamonhangaba, 2002.
 Dispon{\'\i}vel em:
   \htmladdnormallink{$<$http:\-/\-/www\-.santapinda\-.edu\-/{\textbackslash}\~{}{}sbor\-/dissert\-.p$>$}{http://www.santapinda.edu/\~{}sbor/dissert.p}.
   Acesso em: 25 fev. 2002.}
