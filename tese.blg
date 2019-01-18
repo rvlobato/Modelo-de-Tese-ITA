@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2018/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese.aux
-The style file: abnt-alf.bst
+The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
-Database file #1: abnt-options.bib
+Database file #1: abntex2-options.bib
 Database file #2: Referencias/referencias.bib
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
@@ -24,42 +24,42 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 19 entries,
             6714 wiz_defined-function locations,
-            1330 strings with 12062 characters,
-and the built_in function-call counts, 23160 in all, are:
-= -- 3121
+            1331 strings with 12075 characters,
+and the built_in function-call counts, 16143 in all, are:
+= -- 1651
 > -- 365
-< -- 341
-+ -- 529
+< -- 176
++ -- 364
 - -- 111
-* -- 1234
-:= -- 2405
+* -- 1065
+:= -- 2071
 add.period$ -- 70
 call.type$ -- 21
 change.case$ -- 158
 chr.to.int$ -- 33
 cite$ -- 14
-duplicate$ -- 2481
+duplicate$ -- 1032
 empty$ -- 1121
 format.name$ -- 535
-if$ -- 5196
+if$ -- 3726
 int.to.chr$ -- 4
 int.to.str$ -- 3
 missing$ -- 295
 newline$ -- 80
 num.names$ -- 60
-pop$ -- 339
+pop$ -- 306
 preamble$ -- 1
 purify$ -- 69
 quote$ -- 0
-skip$ -- 2795
+skip$ -- 1363
 stack$ -- 1
-substring$ -- 799
-swap$ -- 587
-text.length$ -- 14
+substring$ -- 638
+swap$ -- 426
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 23
 warning$ -- 0
-while$ -- 99
+while$ -- 95
 width$ -- 0
 write$ -- 256

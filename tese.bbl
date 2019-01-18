@@ -31,8 +31,7 @@ London, 1995. 68~p.}
   metacomputing in {J}ava.
 \textbf{Concurrency in Practice and Experience}, v.~10, n. 11--13, p.
   1043--1061, set./nov. 1998.
-Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www-sop\-.inria\-.fr\-/{\textbackslash}\~{}{}sloop\-/javall\-/index\-.ht$>$}{http://www-sop.inria.fr/\~{}sloop/javall/index.ht}.
+Dispon{\'\i}vel em: \url{http://www-sop.inria.fr/\~{}sloop/javall/index.ht}.
   Acesso em: 20 fev. 2000.}
 
 \bibitem[Conference on Coffee Importance 2000]{COFFEE2000}
@@ -46,15 +45,13 @@ Dispon{\'\i}vel em:
 {FURMENTO, N.; ROUDIER, Y.; SIEGEL, G. \textbf{Parall{\'e}lisme et distribution
   en {C}++}: une revue des langages existants.
 Valbonne, 1995. (RR~95-02). Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www-sop\-.inria\-.br\-/science\-/skd\-.gz$>$}{http://www-sop.inria.br/science/skd.gz}.
-  Acesso em: 29 fev. 2003.}
+  \url{http://www-sop.inria.br/science/skd.gz}. Acesso em: 29 fev. 2003.}
 
 \bibitem[ITALUS 2004]{ITALUS2004}
 \abntrefinfo{ITALUS}{ITALUS}{2004}
 {ITALUS: grupo de usu{\'a}rios {\LaTeX} do {ITA}. 2004.
-Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www\-.comp\-.ita\-.br\-/italus\-/$>$}{http://www.comp.ita.br/italus/}.
-  Acesso em: 22 jul. 2004.}
+Dispon{\'\i}vel em: \url{http://www.comp.ita.br/italus/}. Acesso em: 22 jul.
+  2004.}
 
 \bibitem[Joea e John 2003]{Joea2003}
 \abntrefinfo{Joea e John}{JOEA; JOHN}{2003}
@@ -91,9 +88,8 @@ Trabalho de Conclusão de Curso (Especialização do curso) --- Faculdade de
 2002. 98~f. Disserta\c{c}\~{a}o (Mestrado em Ci{\^e}ncia da
   Computa{\c{c}}{\~a}o) --- Instituto de Alguma Coisa, Universidade Sei L{\'a}
   de Onde, Santa Pindamonhangaba, 2002.
-Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www\-.santapinda\-.edu\-/{\textbackslash}\~{}{}sbor\-/dissert\-.p$>$}{http://www.santapinda.edu/\~{}sbor/dissert.p}.
-  Acesso em: 25 fev. 2002.}
+Dispon{\'\i}vel em: \url{http://www.santapinda.edu/\~{}sbor/dissert.p}. Acesso
+  em: 25 fev. 2002.}
 
 \bibitem[Sbornian 2004]{Sbornian2004}
 \abntrefinfo{Sbornian}{SBORNIAN}{2004}
