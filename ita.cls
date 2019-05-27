@@ -8,7 +8,7 @@
 %              Tarcisio A. B. Gripp      -  tarcisio.gripp [at] gmail [dot] com
 %
 % last updated: 
-%        $Id: ita.cls 42 2015-04-08$
+%        $Id: ita.cls 43 2019-05-27$
 %        $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
 %
 %
